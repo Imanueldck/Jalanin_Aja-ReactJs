@@ -24,7 +24,7 @@ const BodyComponent = () => {
           <h3 className="featurette-heading fw-normal lh-1">
             Temukan Petualanganmu <span className="text-body-secondary">Bersama Jalanin Aja</span>
           </h3>
-          <p className="lead">Jalanin Aja, perusahaan yang bersemangat dalam menghadirkan pengalaman perjalanan yang tak terlupakan dengan layanan terbaik dan destinasi yang menakjubkan.</p>
+          <p>Jalanin Aja, perusahaan yang bersemangat dalam menghadirkan pengalaman perjalanan yang tak terlupakan dengan layanan terbaik dan destinasi yang menakjubkan.</p>
         </Col>
         <Col md={5}>
           <img
@@ -41,7 +41,7 @@ const BodyComponent = () => {
         </Col>
       </Row>
 
-      <section className="journey__container">
+      <section id="packages" className="journey__container">
         <div className="section__container">
           <h2 className="section__title">Mulai Petualanganmu</h2>
           <p className="section__subtitle">Destinasi yang paling banyak dicari pada bulan Maret</p>
@@ -95,20 +95,12 @@ const BodyComponent = () => {
                 <Card.Text>Find and reserve accommodations for your travels.</Card.Text>
               </Card.Body>
             </Card>
-            {/* Add more cards for other services */}
-          </section>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          {/* Contact section */}
-          <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Get in touch with us for inquiries, bookings, or collaborations.</p>
-            {/* Add contact information */}
-            <p>Email: example@example.com</p>
-            <p>Phone: +1234567890</p>
-            {/* Add contact form if needed */}
+            <Card>
+              <Card.Body>
+                <Card.Title>Tour Packages</Card.Title>
+                <Card.Text>Find and reserve accommodations for your travels.</Card.Text>
+              </Card.Body>
+            </Card>
           </section>
         </Col>
       </Row>

@@ -12,7 +12,7 @@ const CarouselComponent = () => {
           style={{ maxWidth: "100%", maxHeight: "800px", objectFit: "cover" }}
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Welcome to Jalanin Aja</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
