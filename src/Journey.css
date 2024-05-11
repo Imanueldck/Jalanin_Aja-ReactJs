@@ -1,0 +1,51 @@
+.journey__container {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section__subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.journey__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.destination__card {
+  width: 100%;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.destination__card img {
+  width: 100%;
+  height: auto;
+}
+
+.destination__name {
+  padding: 15px;
+  background-color: #fff;
+}
+
+.destination__name span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Add more CSS styling as needed */

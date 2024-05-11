@@ -1,0 +1,67 @@
+/* body.css */
+
+/* Style for the home section */
+#home {
+  padding: 20px;
+  background-color: #f8f9fa; /* Background color */
+  text-align: center;
+}
+
+/* Style for the about section */
+#about {
+  padding: 20px;
+  background-color: #ffffff;
+}
+.featurette h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+.featurette p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featurette {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.featurette-image {
+  background-color: #eee;
+  border-radius: 0.3rem;
+}
+/* Style for the services section */
+#services {
+  padding: 20px;
+  background-color: #ffffff; /* Background color */
+}
+
+/* Style for the contact section */
+#contact {
+  padding: 20px;
+  background-color: #ffffff; /* Background color */
+}
+
+/* Additional styling for cards */
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+/* Adjustments for small screens */
+@media screen and (max-width: 576px) {
+  .card {
+    width: 100%; /* Make cards full width on small screens */
+  }
+}
